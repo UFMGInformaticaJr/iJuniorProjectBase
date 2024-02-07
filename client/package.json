@@ -33,20 +33,5 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
-  },
-  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FelippeVelosoMarinho/TesteiJuniorProjectBase.git"
-  },
-  "keywords": [
-    "iJunior"
-  ],
-  "author": "Felippe Veloso <felippe.veloso15@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/FelippeVelosoMarinho/TesteiJuniorProjectBase/issues"
-  },
-  "homepage": "https://github.com/FelippeVelosoMarinho/TesteiJuniorProjectBase#readme"
+  }
 }
