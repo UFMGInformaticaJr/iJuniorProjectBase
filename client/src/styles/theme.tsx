@@ -1,0 +1,300 @@
+export const theme = {
+  colors: {
+    primaryLightActive: "#EDF5FF",
+    primaryLightHover: "#91caff",
+    primary: "#9bd8e7",
+    primaryBorder: "#1677ff",
+    primarySolidHover: "#003eb3",
+
+    secondaryLightActive: "#fae8ff",
+    secondaryLightHover: "#e6b3ff",
+    secondary: "#cc66ff",
+    secondaryBorder: "#b300ff",
+    secondarySolidHover: "#8000cc",
+
+    successLightActive: "#e8fdf1",
+    successLightHover: "#e0fded",
+    success: "#54C242",
+    successBorder: "#45a736",
+    successSolidHover: "#398d2c",
+
+    warningLightActive: "#fff9e0",
+    warningLightHover: "#fff6d3",
+    warning: "#FFCC00",
+    warningBorder: "#e7b901",
+    warningSolidHover: "#d8ad02",
+
+    dangerLightActive: "#ffebe4",
+    dangerLightHover: "#ffdacd",
+    danger: "#CC3300",
+    dangerBorder: "#a72a00",
+    dangerSolidHover: "#912400",
+
+    backgroundBox: "#F9F9F9",
+    white: "#ffffff",
+    black: "#000000",
+    red: "#ff0000",
+    greyLight: "#F2F2F2",
+    grey: "#a5a5a5",
+    greySolid: "#656565",
+    greenButton: "#0C383C",
+    darkGrey: "#222222",
+    greyPrice: "#D9D9D9",
+
+    blueGreen: "#149199",
+
+    primaryGradient: `
+     linear-gradient(0deg, #EBF2F2, #D2D8D9)
+    `,
+    gradient:
+      "linear-gradient(90deg, #07828C 1.28%, #045359 50.84%, #022426 101.44%)",
+    searchGradient: `linear-gradient(
+      110.41deg,
+      rgba(248, 248, 248, 1) 2.68%,
+      rgba(225, 229, 230, 1) 50.32%,
+      rgba(200, 204, 204, 0.5) 100%)`,
+    primaryText: "#343434",
+    topBarShadow: "rgba(0, 0, 0, 0.15)",
+
+    cardBackground: "#F5F5F5",
+
+    greyDark: "#3A3A3A",
+    greyDarkLightHover: "#747474",
+    subtitleGray: "rgba(52, 52, 52, 0.5)",
+
+    offWhite: "#d8d8d8",
+  },
+  
+  borderRadius: {
+    r: "0.625rem",
+    xr: "1.563rem",
+  },
+  shadows: {
+    button: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+    accessContainer: "0px 0px 84px rgba(0, 0, 0, 0.15)",
+  },
+  spacing: {
+    0: "0rem",
+    xs2: "0.25rem",
+    xs: "0.5rem",
+    sm: "0.75rem",
+    md: "1rem",
+    lg: "1.375rem",
+    xl: "2.25rem",
+    "2xl": "3rem",
+    "3xl": "5rem",
+    "4xl": "10rem",
+    "5xl": "14rem",
+    "6xl": "18rem",
+    "7xl": "24rem",
+    "8xl": "32rem",
+    "9xl": "40rem",
+    min: "min-content",
+    max: "max-content",
+    fit: "fit-content",
+    screen: "100vw",
+    full: "100%",
+    px: "1px",
+    1: "0.125rem",
+    2: "0.25rem",
+    3: "0.375rem",
+    4: "0.5rem",
+    5: "0.625rem",
+    6: "0.75rem",
+    7: "0.875rem",
+    8: "1rem",
+    9: "1.25rem",
+    10: "1.5rem",
+    11: "1.75rem",
+    12: "2rem",
+    13: "2.25rem",
+    14: "2.5rem",
+    15: "2.75rem",
+    16: "3rem",
+    17: "3.5rem",
+    18: "4rem",
+    20: "5rem",
+    24: "6rem",
+    28: "7rem",
+    32: "8rem",
+    36: "9rem",
+    40: "10rem",
+    44: "11rem",
+    48: "12rem",
+    52: "13rem",
+    56: "14rem",
+    60: "15rem",
+    64: "16rem",
+    72: "18rem",
+    80: "20rem",
+    96: "24rem",
+  },
+  button: {
+    sizes: {
+      sm: ["8.75rem", "2.6875rem"],
+      xs: ["11.5rem", "2.6875rem"],
+      "2xs": ["21.5rem", "2.6875rem"],
+      "3xs": ["22rem", "2.6875rem"],
+      md: ["34.25rem", "2.6875rem"],
+      lg: ["47rem", "2.6875rem"],
+      xlg: ["59.6875rem", "2.6875rem"],
+      signature: ["16.25rem", "2.875rem"],
+      signature2: ["12.25rem", "2.875rem"],
+      background: ["80vw", "3.875rem"],
+      background2: ["65vw", "3.875rem"],
+      form: ["21.5rem", "2.875rem"],
+      view: ["100px", "20px"],
+      filter: ["6vw ", "4.5vh"],
+      filter2: ["6rem ", "2.5rem"],
+    },
+  },
+  text: {
+    fontFamily: "Roboto, Poppins, sans-serif",
+    h1: {
+      fontSize: "2.5rem",
+      lineHeight: "3rem",
+    },
+    h2: {
+      fontSize: "2.25rem",
+      lineHeight: "2.625rem",
+    },
+    h3: {
+      fontSize: "2rem",
+      lineHeight: "2.375rem",
+    },
+    h4: {
+      fontSize: "1.5rem",
+      lineHeight: "1.75rem",
+    },
+    navbar: {
+      fontSize: "1.25rem",
+      lineHeight: "1.75rem",
+    },
+    body: {
+      fontSize: "1.5rem",
+      lineHeight: "1.188rem",
+    },
+    body1: {
+      fontSize: "1.25rem",
+      lineHeight: "1.438rem",
+    },
+    body1_5: {
+      fontSize: "1.125rem",
+      lineHeight: "1.313rem",
+    },
+    body2: {
+      fontSize: "1rem",
+      lineHeight: "1.188rem",
+    },
+    body3: {
+      fontSize: "0.9rem",
+      lineHeight: "1.188rem",
+    },
+    legenda: {
+      fontSize: "0.875rem",
+      lineHeight: "1rem",
+    },
+    legenda2: {
+      fontSize: "0.75rem",
+      lineHeight: "1rem",
+    },
+    legenda3: {
+      fontSize: "0.6rem",
+      lineHeight: "1rem",
+    },
+    filterListagem: {
+      fontSize: "0.9vw",
+      lineHight: "1rem",
+    },
+  },
+  box: {
+    sizes: {
+      modalSizeType1: ["27.5rem", "16.375rem"],
+      modalSizeType2: ["27.5rem", "19.6875rem"],
+      modalSizeType3: ["27.5rem", "26.625rem"],
+      modalSizeType4: ["27.5rem", "28.125rem"],
+      modalSizeType5: ["27.5rem", "46.625rem"],
+      modalSizeType6: ["27.5rem", "32.5rem"],
+      modalSizeType7: ["27.5rem", "42rem"],
+      modalSizeType8: ["36rem", "38rem"],
+      modalSizeType9: ["27.5rem", "40rem"],
+
+      modalSizeTypeFilter: ["30rem", "43rem"],
+      modalSizeTypeFilterTablet: ["35rem", "55rem"],
+      modalSizeTypeFilterMobile: ["35rem", "70rem"],
+
+      accessContainer: ["53rem", "32.75rem"],
+      accessContainerMobile: ["28.4375rem", "38.375rem"],
+
+      navbarFull: ["14.125rem", "100vh"],
+      navbarShort: ["7.75rem", "100vh"],
+
+      topbarFull: ["100vw", "5rem"],
+
+      generalContainer: ["90%", "85vh"],
+
+      generalContainer2: ["90%", "100vh"],
+
+      containerEditInsertCoupon: ["90%", "120vh"],
+
+      containerPopup: ["90%", "120vh"],
+
+      containerCouponMobile: ["150%", "250vh"],
+
+      generalContainerFilterMain: ["90%", "72vh"],
+      generalContainerFilter: ["90%", "12vh"],
+
+      cardPrice: ["21.5rem", "26.5rem"],
+      cardPrice2: ["24.25rem", "24.25rem"],
+      infoCard: ["16.875rem", "20rem"],
+
+      forms: ["90%", "auto"],
+    },
+  },
+  input: {
+    sizes: {
+      sm: ["24.75rem", "7.625rem"],
+      ssm: ["21.75rem", "2.9375rem"],
+      forms: ["100%", "2.9375rem"],
+      halfforms: ["49%", "2.9375rem"],
+      search: ["12rem", "2.9375rem"],
+      lg: ["95%", "1.5rem"],
+      hlg: ["47.5%", "1rem"],
+      description: ["100%", "8rem"],
+      filter: ["22vw", "2rem"],
+      filterMobile: ["35vw", "1rem"],
+    },
+    placeholderSizes: {
+      sm: "1rem",
+      ssm: "1.1rem",
+      xs: "1.2rem",
+      "2xs": "1.3rem",
+      md: "1.4rem",
+    },
+  },
+  breakpoints: {
+    ms: "20rem",
+    mm: "23.75rem",
+    ml: "26.5625rem",
+    t: "48rem",
+    l: "64rem",
+    ll: "90rem",
+    d: "160rem",
+  },
+  loader: {
+    sizes: {
+      sm: "1.5rem",
+      xs: "2rem",
+      md: "2.5rem",
+      lg: "3rem",
+      xl: "3.5rem",
+    },
+    border: {
+      sm: "0.15rem",
+      xs: "0.2rem",
+      md: "0.25rem",
+      lg: "0.3rem",
+      xl: "0.35rem",
+    },
+  },
+};
