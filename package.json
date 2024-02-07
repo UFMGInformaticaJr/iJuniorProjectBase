@@ -1,0 +1,25 @@
+{
+  "name": "ijuniorprojectbase",
+  "version": "1.0.0",
+  "description": "Project skeleton using iJunior's component bank to build a general project skeleton for the company's projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UFMGInformaticaJr/iJuniorProjectBase.git"
+  },
+  "keywords": [
+    "ijunior"
+  ],
+  "author": "UFMG Informática Júnior <ijunior@ijunior.com.br>",
+  "license": "MIT",
+  "files": [
+    "client"
+  ],
+  "bugs": {
+    "url": "https://github.com/UFMGInformaticaJr/iJuniorProjectBase/issues"
+  },
+  "homepage": "https://github.com/UFMGInformaticaJr/iJuniorProjectBase#readme"
+}
